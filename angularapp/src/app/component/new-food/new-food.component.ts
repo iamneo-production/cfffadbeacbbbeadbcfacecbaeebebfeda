@@ -9,7 +9,7 @@ import { items } from './../../interface/foods';
 })
 export class NewFoodComponent implements OnInit {
 
-  items: Food[];
+  items: Food[] = [];
   newFoodName = 'Enter Food Name';
   newFoodCalories = 0;
   newFoodImage = '';

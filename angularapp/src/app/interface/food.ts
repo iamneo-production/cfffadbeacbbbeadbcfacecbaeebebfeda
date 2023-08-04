@@ -1,7 +1,7 @@
 export class Food {
-    name: string;
-    calories: number;
-    image: string;
-    count: number;
+    name: string | undefined;
+    calories: number | undefined;
+    image: string | undefined;
+    count: number | undefined;
   }
   
