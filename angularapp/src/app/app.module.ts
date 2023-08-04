@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NewFoodComponent } from './component/new-food/new-food.component';
 import { FoodSearchPipe } from './component/new-food/food-search.pipe';
+import { TodayComponent } from './today/today.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NewFoodComponent,
-    FoodSearchPipe
+    FoodSearchPipe,
+    TodayComponent
   ],
   imports: [
     BrowserModule,
